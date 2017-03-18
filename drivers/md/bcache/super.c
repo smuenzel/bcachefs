@@ -2380,7 +2380,6 @@ static int __init bcache_init(void)
 		goto err;
 
 	bch_debug_init(bcache_kobj);
-	closure_debug_init();
 
 	return 0;
 err:
